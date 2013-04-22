@@ -9,7 +9,7 @@
 #import "PSFirstViewController.h"
 
 @interface PSFirstViewController ()
-
+- (void) myPrivateMethod;
 @end
 
 @implementation PSFirstViewController
@@ -34,6 +34,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) myPrivateMethod
+{
+    NSLog(@"test message");
 }
 
 @end
