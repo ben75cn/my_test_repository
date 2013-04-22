@@ -10,6 +10,7 @@
 
 @interface PSFirstViewController ()
 - (void) myPrivateMethod;
+- (void) anotherTestMethod;
 @end
 
 @implementation PSFirstViewController
@@ -39,6 +40,11 @@
 - (void) myPrivateMethod
 {
     NSLog(@"test message");
+}
+
+- (void) anotherTestMethod
+{
+    
 }
 
 @end
