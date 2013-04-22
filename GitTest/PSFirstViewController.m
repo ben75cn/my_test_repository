@@ -11,6 +11,7 @@
 @interface PSFirstViewController ()
 - (void) myPrivateMethod;
 - (void) anotherTestMethod;
+- (void) newOne;
 @end
 
 @implementation PSFirstViewController
@@ -43,6 +44,11 @@
 }
 
 - (void) anotherTestMethod
+{
+    
+}
+
+- (void) newOne
 {
     
 }
