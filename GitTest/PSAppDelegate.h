@@ -1,0 +1,17 @@
+//
+//  PSAppDelegate.h
+//  GitTest
+//
+//  Created by Gang Wang on 22/04/13.
+//  Copyright (c) 2013 Gang Wang. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface PSAppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) UITabBarController *tabBarController;
+
+@end

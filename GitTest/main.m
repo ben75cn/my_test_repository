@@ -1,0 +1,18 @@
+//
+//  main.m
+//  GitTest
+//
+//  Created by Gang Wang on 22/04/13.
+//  Copyright (c) 2013 Gang Wang. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+#import "PSAppDelegate.h"
+
+int main(int argc, char *argv[])
+{
+    @autoreleasepool {
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([PSAppDelegate class]));
+    }
+}
